@@ -34,3 +34,9 @@ git pull origin master
 To push"
 
 git push --set-upstream origin branch1
+
+To pull master 
+ git pull
+ 
+ To create new branch 
+git checkout -b branch1
