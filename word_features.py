@@ -31,7 +31,8 @@ def feature_generic(word):
     return {('generic#', generic): 1}
 
 def feature_last_two_letters(word):
-    return {('last_two_letters', word[-2:]): 1}
+    return {('last_two_letters', word[-3:]): 1}
+#changed last 2 letters to last 3 letters
 
 def feature_length(word):
     return {('length', None): len(word)}

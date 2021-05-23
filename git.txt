@@ -1,0 +1,32 @@
+Git commands(In Git bash)
+
+GIT Version:
+git --version 
+
+
+Initialize folder as git local repository:
+Go inside the folder and use
+git init
+
+Add file to local staging:
+
+git add test.py
+
+To verify the files that need to be commmitted to local repository"
+
+git status
+
+To commit the files in the staging to local repository:
+
+git commit -m "First commit"
+
+First commit is the comments
+
+To connect to git hub online
+
+git remote add origin "git@github.com:ManasaVeenaKarri/gittest.git"
+
+To pull files from shared repo
+
+git pull origin master
+
