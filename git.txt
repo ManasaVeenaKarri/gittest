@@ -30,3 +30,7 @@ To pull files from shared repo
 
 git pull origin master
 
+
+To push"
+
+git push --set-upstream origin branch1
